@@ -1,0 +1,42 @@
+.main_top_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0468FF;
+    color: #ffffff;
+    height: 98px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.top_menu_left_part {
+    display: flex;
+    flex-direction: row;
+}
+
+.top_menu_left_part_two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top_menu_link {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.top_menu_right_part {
+    display: flex;
+    flex-direction: row;
+}
+
+.top_menu_sign_in {
+    background-color: transparent;
+    background-repeat:no-repeat;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    border: #ffffff 1px solid;
+    cursor:pointer;
+    overflow: hidden;
+}
