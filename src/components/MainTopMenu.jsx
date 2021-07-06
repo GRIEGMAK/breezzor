@@ -4,23 +4,23 @@ import search from './../images/Search.svg'
 
 const MainTopMenu = () => {
   return (
-    <div className="main_top_menu">
-      <div className="top_menu_left_part">
-          <div>
+    <div className="MainTopMenu">
+      <div className="MainTopMenuLeft">
+          <div className="Logo-Breezzor">
               <img src={logo} />
           </div>
-          <div className="top_menu_left_part_two">
-              <div className="top_menu_link">Пляжи</div>
-              <div className="top_menu_link">Breezzor pass</div>
-              <div className="top_menu_link">Впечатления</div>
-              <div className="top_menu_link">Маршруты</div>
+          <div className="MainTopMenuItems">
+              <div className="Heading"><a>Пляжи</a></div>
+              <div className="Heading"><a>Breezzor pass</a></div>
+              <div className="Heading"><a>Впечатления</a></div>
+              <div className="Heading"><a>Маршруты</a></div>
           </div>
       </div>
-      <div className="top_menu_right_part">
-          <div>
+      <div className="MainTopMenuRight">
+          <div className="top_menu_search">
               <img src={search} />
           </div>
-          <div className="top_menu_sign_in">
+          <div className="Buttons">
               <a>Вход</a>
           </div>
       </div>

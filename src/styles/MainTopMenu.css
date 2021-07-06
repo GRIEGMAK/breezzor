@@ -1,42 +1,59 @@
-.main_top_menu {
+.MainTopMenu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #0468FF;
+    background-color: #0053D9;
     color: #ffffff;
     height: 98px;
-    padding-left: 30px;
-    padding-right: 50px;
+    padding-left: 79px;
+    padding-right: 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.9px;
+    line-height: 24px;
+    max-width: 1280px;
 }
 
-.top_menu_left_part {
+.MainTopMenuLeft {
     display: flex;
     flex-direction: row;
 }
 
-.top_menu_left_part_two {
+.Logo-Breezzor {
+    padding-top: 9px;
+}
+
+.MainTopMenuItems {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 25px;
 }
 
-.top_menu_link {
-    margin-left: 10px;
-    margin-bottom: 5px;
+.Heading {
+    margin-right: 28.7px;
 }
 
-.top_menu_right_part {
+.MainTopMenuRight {
     display: flex;
     flex-direction: row;
 }
 
-.top_menu_sign_in {
+.Buttons {
     background-color: transparent;
     background-repeat:no-repeat;
-    padding: 10px 10px 10px 10px;
+    padding: 7px 24px 7px 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     border-radius: 8px;
     border: #ffffff 1px solid;
     cursor:pointer;
     overflow: hidden;
+}
+
+.top_menu_search img {
+    margin-right: 23px;
+    margin-top: 29px;
 }
