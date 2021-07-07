@@ -5,6 +5,7 @@ import EmotionsAbout from './components/EmotionsAbout';
 import Devider from './components/Devider';
 import EmotionsAuthor from './components/EmotionsAuthor';
 import EmotionsInfo from './components/EmotionsInfo';
+import EmotionsComments from './components/EmotionsComments'
 
 const App = () => {
   return (
@@ -21,6 +22,8 @@ const App = () => {
         <EmotionsAuthor />
         <Devider />
         <EmotionsInfo />
+        <Devider />
+        <EmotionsComments/>
         <Devider />
       </div>
     </div>
