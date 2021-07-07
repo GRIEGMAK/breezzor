@@ -2,10 +2,11 @@ import './App.css';
 import MainTopMenu from './components/MainTopMenu';
 import EmotionsTopRow from './components/EmotionsTopRow';
 import EmotionsAbout from './components/EmotionsAbout';
-import Devider from './components/Devider';
+import Divider from './components/Divider';
 import EmotionsAuthor from './components/EmotionsAuthor';
 import EmotionsInfo from './components/EmotionsInfo';
 import EmotionsComments from './components/EmotionsComments'
+import EmotionsBook from './components/EmotionsBook'
 
 const App = () => {
   return (
@@ -18,13 +19,15 @@ const App = () => {
       </div>
       <div className="main_part">
         <EmotionsAbout />
-        <Devider />
+        <Divider />
         <EmotionsAuthor />
-        <Devider />
+        <Divider />
         <EmotionsInfo />
-        <Devider />
+        <Divider />
         <EmotionsComments/>
-        <Devider />
+        <Divider />
+        <EmotionsBook />
+        <Divider />
       </div>
     </div>
   ); 
