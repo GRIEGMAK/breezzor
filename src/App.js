@@ -1,8 +1,10 @@
-import MainTopMenu from './components/MainTopMenu';
-import EmotionsTopRow from './components/EmotionsTopRow'
-import EmotionsAbout from './components/EmotionsAbout'
-import Devider from './components/Devider'
 import './App.css';
+import MainTopMenu from './components/MainTopMenu';
+import EmotionsTopRow from './components/EmotionsTopRow';
+import EmotionsAbout from './components/EmotionsAbout';
+import Devider from './components/Devider';
+import EmotionsAuthor from './components/EmotionsAuthor';
+import EmotionsInfo from './components/EmotionsInfo';
 
 const App = () => {
   return (
@@ -16,9 +18,13 @@ const App = () => {
       <div className="main_part">
         <EmotionsAbout />
         <Devider />
+        <EmotionsAuthor />
+        <Devider />
+        <EmotionsInfo />
+        <Devider />
       </div>
     </div>
-  );
+  ); 
 }
 
 export default App;
