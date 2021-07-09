@@ -7,6 +7,7 @@ import EmotionsAuthor from './components/EmotionsAuthor';
 import EmotionsInfo from './components/EmotionsInfo';
 import EmotionsComments from './components/EmotionsComments'
 import EmotionsBook from './components/EmotionsBook'
+import EmotionsMore from './components/EmotionsMore' 
 
 const App = () => {
   return (
@@ -27,6 +28,8 @@ const App = () => {
         <EmotionsComments/>
         <Divider />
         <EmotionsBook />
+        <Divider />
+        <EmotionsMore />
         <Divider />
       </div>
     </div>

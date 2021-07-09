@@ -1,5 +1,11 @@
 import './../styles/EmotionsInfo.css';
-import map from './../images/map.png'
+import { YMaps, Map } from "react-yandex-maps";
+
+const mapData = {
+  center: [41.48047138261828,2.3168804523925686],
+  zoom: 11,
+};
+
 
 const EmotionsInfo = () => {
   return (
@@ -71,7 +77,11 @@ const EmotionsInfo = () => {
             <div>Вызвать такси до места</div>
           </div>
         </div>
-        <div className="place_map"><img src={map}/></div>
+        <div className="place_map">
+        <YMaps>
+          <Map defaultState={mapData} className="maps_y"></Map>
+        </YMaps>
+        </div>
         </div>
         <div className="clarifications">
           <div className="clarifications_column">
