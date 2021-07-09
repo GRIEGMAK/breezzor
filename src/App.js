@@ -8,6 +8,7 @@ import EmotionsInfo from './components/EmotionsInfo';
 import EmotionsComments from './components/EmotionsComments'
 import EmotionsBook from './components/EmotionsBook'
 import EmotionsMore from './components/EmotionsMore' 
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -30,8 +31,8 @@ const App = () => {
         <EmotionsBook />
         <Divider />
         <EmotionsMore />
-        <Divider />
       </div>
+      <Footer />
     </div>
   ); 
 }
