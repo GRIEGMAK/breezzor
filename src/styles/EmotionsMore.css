@@ -7,3 +7,36 @@
     font-family: 'Montserrat';
     font-size: 14px;
 }
+
+.panelButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 33px;
+}
+
+.buttonTab {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+    padding: 5px 20px 5px 20px;
+}
+
+.buttonTab.open {
+    border-radius: 18px;
+    background-color: #2E89FF;
+    color: #FFFFFF;
+}
+
+.card_panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    display: none;
+}
+
+.open_tab {
+    display: flex;
+}

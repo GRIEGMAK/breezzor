@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #0053D9;
-    color: #ffffff;
+    color: #ffffff !important;
     height: 98px;
     padding-left: 79px;
     padding-right: 80px;
@@ -14,6 +14,7 @@
     font-size: 14.9px;
     line-height: 24px;
     max-width: 1280px;
+
 }
 
 .MainTopMenuLeft {
@@ -23,6 +24,7 @@
 
 .Logo-Breezzor {
     padding-top: 9px;
+    cursor: pointer;
 }
 
 .MainTopMenuItems {
@@ -34,6 +36,7 @@
 
 .Heading {
     margin-right: 28.7px;
+    cursor: pointer;
 }
 
 .MainTopMenuRight {

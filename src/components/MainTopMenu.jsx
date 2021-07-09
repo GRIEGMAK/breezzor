@@ -10,10 +10,10 @@ const MainTopMenu = () => {
               <img src={logo} />
           </div>
           <div className="MainTopMenuItems">
-              <div className="Heading"><a>Пляжи</a></div>
-              <div className="Heading"><a>Breezzor pass</a></div>
-              <div className="Heading"><a>Впечатления</a></div>
-              <div className="Heading"><a>Маршруты</a></div>
+              <div className="Heading">Пляжи</div>
+              <div className="Heading">Breezzor pass</div>
+              <div className="Heading">Впечатления</div>
+              <div className="Heading">Маршруты</div>
           </div>
       </div>
       <div className="MainTopMenuRight">
@@ -21,7 +21,7 @@ const MainTopMenu = () => {
               <img src={search} />
           </div>
           <div className="Buttons">
-              <a>Вход</a>
+              Вход
           </div>
       </div>
     </div>
