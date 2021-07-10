@@ -60,3 +60,24 @@
     line-height: 2;
     width: 100%;
 }
+
+@media screen and (max-width: 1150px) {
+    .emotionsAboutImages {
+        flex-direction: column;
+    }
+
+    .images {
+        margin-top: 1rem;
+        margin-left: -20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 1150px) {
+    .mainImage {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
