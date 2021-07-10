@@ -18,10 +18,10 @@ const EmotionsAbout = () => {
           <div className="image"><img src={img3}/></div>
           <div className="image"><img src={img4}/></div>
           <div className="image"><img src={img5}/></div>
-          <div className="frame">
+          <a className="frame" href="https://ant.design/">
             <div className="frame_icon"></div>
             <div className="frame_text">Все фото: 99</div>
-          </div>
+          </a>
         </div>
       </div>
       <div>

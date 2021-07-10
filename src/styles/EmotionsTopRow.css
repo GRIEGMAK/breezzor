@@ -39,12 +39,15 @@
 .item-favorites {
     display: flex;
     flex-direction: row;
+    color: #262626;
+
 }
 
 .item-share {
     display: flex;
     flex-direction: row;
     padding-right: 12px;
+    color: #262626;
 }
 
 .share_top {

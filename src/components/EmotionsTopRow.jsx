@@ -15,14 +15,14 @@ const EmotionsTopRow = () => {
             <div>Своими руками</div>
           </div>
           <div className="EmotionsBreadcrumpsRight">
-            <div className="item-share">
+            <a className="item-share">
               <div className="share_top"></div>
               <div className="header_share">Поделится</div>
-            </div>
-            <div className="item-favorites">
+            </a>
+            <a className="item-favorites">
               <div className="favorites"></div>
               <div className="header_favorites">В избранное</div>
-            </div>
+            </a>
           </div>
         </div>
         <div className="title_header">
