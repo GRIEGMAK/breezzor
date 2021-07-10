@@ -13,7 +13,8 @@ import Footer from './components/Footer';
 const App = () => {
   return (
     <div>
-      <div className="top_menu">
+      <div className="" id="top_menu_plug"></div>
+      <div className="" id="top_menu">
         <MainTopMenu />
       </div>
       <div>

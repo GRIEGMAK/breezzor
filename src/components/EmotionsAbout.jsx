@@ -9,7 +9,7 @@ import img5 from './../images/Image (4).jpg'
 
 const EmotionsAbout = () => {
   return (
-    <div className="emotionsAbout">
+    <div className="emotionsAbout" id="emotionsAbout">
       <div className="emotionsAboutImages">
         <div className="mainImage"><img src={MainImage}/></div>
         <div className="images">

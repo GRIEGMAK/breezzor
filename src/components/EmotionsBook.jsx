@@ -6,7 +6,7 @@ import Calendar from '../subComponents/Calendar';
 
 const EmotionsBook = () => {
   return (
-    <div className="EmotionsBook">
+    <div className="EmotionsBook" id="EmotionsBook">
       <div>
         <div className="card_serv_type">
           <div className="lotus"></div>

@@ -8,6 +8,9 @@ body {
   margin: 0 auto 0 auto !important;
   background-color: #F5F5F5;
   font-family: 'Roboto';
+  text-decoration: none;
+  color: #262626;
+  scroll-behavior: smooth;
 }
 
 code {

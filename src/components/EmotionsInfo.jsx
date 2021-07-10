@@ -9,7 +9,7 @@ const mapData = {
 
 const EmotionsInfo = () => {
   return (
-    <div>
+    <div id="EmotionsInfo">
       <div>
         <div className="EmotionsInfoTitle">
           Важная информация:

@@ -47,7 +47,7 @@
     padding-right: 12px;
 }
 
-.share {
+.share_top {
     width: 20px;
     height: 20px;
     background-size: 20px 20px;
@@ -87,6 +87,7 @@
     text-align: center;
     font-family: "Roboto";
     font-size: 16px;
+    color: #262626;
 }
 
 .icon-overview {
@@ -127,4 +128,32 @@
 .title-date,
 .title-overview {
     margin-left: 8px;
+}
+
+.EmotionTabs_fix {
+    position: fixed;
+    max-width: 1280px;
+    width: 100%;
+    margin: -17.4rem 8rem 0 -5rem;
+    z-index: 5;
+    background-color: #f0f0f0;
+    padding-top: 10px;
+}
+
+.EmotionTabs_fix_plug {
+    width: 75%;
+    height: 98px;
+}
+
+
+@media screen and (max-width: 1280px){
+    .EmotionTabs_fix {
+        width: 110%
+    }
+}
+
+@media screen and (max-width: 475px){
+    .EmotionTabs_fix {
+        margin-top: -19rem
+    }
 }

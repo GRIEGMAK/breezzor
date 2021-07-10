@@ -16,7 +16,7 @@ const EmotionsTopRow = () => {
           </div>
           <div className="EmotionsBreadcrumpsRight">
             <div className="item-share">
-              <div className="share"></div>
+              <div className="share_top"></div>
               <div className="header_share">Поделится</div>
             </div>
             <div className="item-favorites">
@@ -28,23 +28,24 @@ const EmotionsTopRow = () => {
         <div className="title_header">
           Урок сыроделия 
         </div>
-        <div className="EmotionsTabs">
-          <div className="RoutsRibbonButtons">
+        <div className="" id="EmotionsTabs_plug"></div>
+        <div className="EmotionsTabs" id="EmotionTabs">
+          <a className="RoutsRibbonButtons" href="#emotionsAbout" id="RoutsRibbonButtons_overview">
             <div className="icon-overview"></div>
             <div className="title-overview">Обзор</div>
-          </div>
-          <div className="RoutsRibbonButtons">
+          </a>
+          <a className="RoutsRibbonButtons" href="#EmotionsAuthor" id="RoutsRibbonButtons_organization">
             <div className="icon-organizer"></div>
             <div className="title-organizer">Организатор</div>
-          </div>
-          <div className="RoutsRibbonButtons">
+          </a>
+          <a className="RoutsRibbonButtons" href="#EmotionsInfo" id="RoutsRibbonButtons_information ">
             <div className="icon-information"></div>
             <div className="title-information">Информация</div>
-          </div>
-          <div className="RoutsRibbonButtons">
+          </a>
+          <a className="RoutsRibbonButtons" href="#EmotionsBook" id="RoutsRibbonButtons_date">
             <div className="icon-date"></div>
             <div className="title-date">Выбрать даты</div>
-          </div>
+          </a>
         </div>
       </div>
     </div>

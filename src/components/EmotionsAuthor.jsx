@@ -3,7 +3,7 @@ import Avatar from './../images/Ellipse.png'
 
 const EmotionsAuthor = () => {
   return (
-    <div>
+    <div id="EmotionsAuthor">
         <div className="EmotionsAuthorTitle">
             <div>
                 Организатор:
