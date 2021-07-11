@@ -29,7 +29,7 @@ const EmotionsTopRow = () => {
           Урок сыроделия 
         </div>
         <div className="" id="EmotionsTabs_plug"></div>
-        <div className="EmotionsTabs" id="EmotionTabs">
+        <div className="EmotionsTabs" id="EmotionTabs" style={{top: "98px"}}>
           <a className="RoutsRibbonButtons" href="#emotionsAbout" id="RoutsRibbonButtons_overview">
             <div className="icon-overview"></div>
             <div className="title-overview">Обзор</div>

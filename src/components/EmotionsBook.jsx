@@ -13,7 +13,7 @@ const EmotionsBook = () => {
           <div className="sale">– 30 OFF</div>
         </div>
         <div className="book_image">
-          <img src={Book}/>
+          <img src={Book} className="bookImage"/>
         </div>
       </div>
       <div className="description">

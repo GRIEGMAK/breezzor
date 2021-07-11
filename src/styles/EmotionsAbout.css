@@ -75,9 +75,20 @@
 
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 780px) {
     .mainImage {
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .MainImage {
+        width: 95%;
+        height: 95%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }

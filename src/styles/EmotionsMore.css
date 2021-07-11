@@ -39,7 +39,7 @@
     justify-content: space-between;
     margin-top: 40px;
     display: none;
-    width: 360px;
+    max-width: 360px;
 }
 
 .open_tab {
@@ -49,11 +49,36 @@
 
 @media screen and (max-width: 1150px) {
     .card_panel {
-        
+        display: grid;
+        align-items: center;
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+        display: none;
+    }
+    .open_tab {
+        display: grid;
     }
 }
 
-@media screen and(max-width: 500px) {
+@media screen and (max-width: 900px) {
     .card_panel {
+        display: grid;
+        align-items: center;
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+        grid-template-columns: 1fr;
+        display: none;
+        margin-left: 3rem;
+    }
+    .open_tab {
+        display: grid;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .panelButton {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }

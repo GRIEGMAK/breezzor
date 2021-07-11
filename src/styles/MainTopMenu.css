@@ -61,8 +61,43 @@
     margin-top: 29px;
 }
 
-@media screen and (max-width: 1200px){
+.MainTopMenuRight_mobile {
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+    background-image: url("data:image/svg+xml;base64, PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTcuOTUgMTEuODVhMS4zNSAxLjM1IDAgMTEtMi43IDAgMS4zNSAxLjM1IDAgMDEyLjcgMHptNS40IDBhMS4zNSAxLjM1IDAgMTEtMi43IDAgMS4zNSAxLjM1IDAgMDEyLjcgMHptNC4wNSAxLjM1YTEuMzUgMS4zNSAwIDEwMC0yLjcgMS4zNSAxLjM1IDAgMDAwIDIuN3oiIGZpbGw9IiMyNjI2MjYiLz48cGF0aCBkPSJNNC4xMjMgMjIuMzg0bC4wMjctLjAwNWMyLjQ3LS40OSAzLjk4LTEuMTM3IDQuNjgyLTEuNDkyIDEuMDMzLjI3NiAyLjA5OC40MTUgMy4xNjguNDEzIDUuOTY0IDAgMTAuOC00LjIzIDEwLjgtOS40NSAwLTUuMjItNC44MzYtOS40NS0xMC44LTkuNDVTMS4yIDYuNjMgMS4yIDExLjg1YzAgMi4zNzYgMS4wMDMgNC41NSAyLjY2IDYuMjFhMTQuMDg4IDE0LjA4OCAwIDAxLS43MDggMy4xM2wtLjAwNC4wMTRjLS4xLjI5LS4yMS41NzctLjMzLjg2LS4xMDYuMjUxLjEuNTMyLjM3LjQ4OS4zMTItLjA1MS42MjQtLjEwOC45MzUtLjE2OXptMS4wOC00LjE5NmExLjM1IDEuMzUgMCAwMC0uMzg4LTEuMDgxQzMuMzg1IDE1LjY3IDIuNTUgMTMuODMyIDIuNTUgMTEuODVjMC00LjMxIDQuMDU1LTguMSA5LjQ1LTguMXM5LjQ1IDMuNzkgOS40NSA4LjEtNC4wNTUgOC4xLTkuNDUgOC4xYy0uOTUyLjAwMS0xLjktLjEyMi0yLjgxOS0uMzY3YTEuMzUgMS4zNSAwIDAwLS45Ni4xYy0uNTIyLjI2NC0xLjY3NC43Ny0zLjU1NiAxLjIwNWExNC44MSAxNC44MSAwIDAwLjUzOC0yLjd6IiBmaWxsPSIjMjYyNjI2Ii8+PC9zdmc+");
+    z-index: 6;
+}
+
+.Mobile_menu {
+    position: fixed;
+    width: 100%;
+    margin: 15rem 8rem 0 -5rem;
+    background-color: #f0f0f0;
+    color: #262626;
+    font-size: 32px;
+    padding: 10px 10px 20px 10px;
+    z-index: 6;
+    top: 98px
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 1100px){
     .MainTopMenu {
-        width: 110%;
+        width: 105%;
     }
 }
+
+@media screen and (max-width: 800px){
+    .MainTopMenu {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 720px){
+
+}
+

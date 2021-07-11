@@ -33,7 +33,9 @@ const App = () => {
         <Divider />
         <EmotionsMore />
       </div>
-      <Footer />
+      <div className="footer_bottom_container">
+        <Footer />
+      </div>
     </div>
   ); 
 }

@@ -11,7 +11,7 @@ const EmotionsAbout = () => {
   return (
     <div className="emotionsAbout" id="emotionsAbout">
       <div className="emotionsAboutImages">
-        <div className="mainImage"><img src={MainImage}/></div>
+        <div className="mainImage"><img src={MainImage} className="MainImage"/></div>
         <div className="images">
           <div className="image"><img src={img2}/></div>
           <div className="image"><img src={img1}/></div>
