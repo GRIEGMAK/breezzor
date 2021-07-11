@@ -37,8 +37,8 @@
 
 @media screen and (max-width: 700px){
     .main_part {
-        width: 100%;
-        margin: 0 2rem 0 auto;
+        width: 90%;
+        margin: 0 auto 0 auto;
     }
 }
 

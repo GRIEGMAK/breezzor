@@ -24,12 +24,13 @@ document.addEventListener('DOMContentLoaded', function(){
         document.querySelector(".MainTopMenuItems").classList.remove("hide")
         document.querySelector(".MainTopMenuRight").classList.remove("hide")
         document.querySelector(".MainTopMenuRight_mobile").classList.add("hide")
+        document.querySelector(".Mobile_menu").classList.add("hide")
     }
+    
 })
 
 window.addEventListener('resize', function(){
     if(window.outerWidth < 720) {
-        console.log(document.querySelector(".MainTopMenuItems"))
         document.querySelector(".MainTopMenuItems").classList.add("hide")
         document.querySelector(".MainTopMenuRight").classList.add("hide")
         document.querySelector(".MainTopMenuRight_mobile").classList.remove("hide")
@@ -37,6 +38,6 @@ window.addEventListener('resize', function(){
         document.querySelector(".MainTopMenuItems").classList.remove("hide")
         document.querySelector(".MainTopMenuRight").classList.remove("hide")
         document.querySelector(".MainTopMenuRight_mobile").classList.add("hide")
+        document.querySelector(".Mobile_menu").classList.add("hide")
     }
-    
 })

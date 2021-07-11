@@ -42,6 +42,7 @@
     font-family: "Roboto";
     font-size: 14px;
     line-height: 2;
+    margin-left: 2rem;
 }
  
 .EmotionsAuthorNameAvatar {
@@ -61,4 +62,13 @@
 .EmotionsAuthorNameAboutDate {
     font-size: 12px;
     color: #8C8C8C;
+}
+
+@media screen and (max-width: 510px) {
+    .EmotionsAuthorAbout {
+        flex-direction: column;
+    }
+    .EmotionsAuthorNameAboutText {
+        margin-top: 1rem;
+    }
 }
