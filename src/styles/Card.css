@@ -100,12 +100,12 @@
         margin: 10px 5px 10px 0;
     }
     .ImgCard {
-        width: 50% ;
+        width: 100% ;
     }
     .img_card {
-        width: 50%;
+        width: 100%;
     }
     .card {
-        width: 80%;
+        width: 90%;
     }
 }

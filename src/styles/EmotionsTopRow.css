@@ -210,5 +210,9 @@
     .EmotionsBreadcrumps {
         flex-direction: column;
         font-size: 10px;
+        margin-left: -3rem;
+    }
+    .title_header {
+        margin-left: -3rem;
     }
 }

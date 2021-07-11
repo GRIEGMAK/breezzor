@@ -158,7 +158,7 @@
     }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 350px) {
     .calendar {
         padding: 0px 0;
         margin-left: -3rem;
