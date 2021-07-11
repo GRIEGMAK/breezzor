@@ -17,7 +17,7 @@ const Card = (props) => {
         }
         <div className="share"></div>
       </div>
-      <div className="img_card"><img src={Rest}/></div>
+      <div className="img_card"><img src={Rest} className="ImgCard"/></div>
       <div className="about_card">
         <div className="header_card"><strong>Your Experience</strong></div>
         <div className="price_rating">

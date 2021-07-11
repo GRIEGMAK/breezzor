@@ -32,7 +32,6 @@ const MainTopMenu = () => {
           <div className="Heading">Маршруты</div>
         </div>
           <div className="top_menu_search">
-            <input type="text"></input>
               <img src={search} />
           </div>
           <div className="Buttons">

@@ -117,3 +117,8 @@
     line-height: 2;
 }
 
+@media screen and (max-width: 500px) {
+    .Emotion_header {
+        font-size: 14px !important;
+    }
+}

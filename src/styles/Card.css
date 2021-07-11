@@ -87,3 +87,25 @@
     color: #595959;
 }
 
+@media screen and (max-width: 400px) {
+    .price_card {
+        font-family: "Montserrat";
+        font-size: 12px;
+    } 
+    
+    .header_card {
+        font-family: "Montserrat";
+        font-size: 12px;
+        margin-top: 10px;
+        margin: 10px 5px 10px 0;
+    }
+    .ImgCard {
+        width: 50% ;
+    }
+    .img_card {
+        width: 50%;
+    }
+    .card {
+        width: 80%;
+    }
+}

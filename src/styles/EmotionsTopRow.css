@@ -199,3 +199,16 @@
         font-size: 7px;
     }
 }
+
+@media screen and (max-width: 670px){
+    .EmotionsTopRowContainer {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 610px){
+    .EmotionsBreadcrumps {
+        flex-direction: column;
+        font-size: 10px;
+    }
+}
